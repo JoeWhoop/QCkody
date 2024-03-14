@@ -8,11 +8,9 @@ document.getElementById("goButton").addEventListener("click", function () {
     var baseRedirectURL = "https://web.miniextensions.com/og4YLHRzg7wPGu7SVCdg?prefill_Mechanic=" + selectedMechanic;
 
     var redirectionURLs = {
-        "D0": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D1": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D2": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D3": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D4": baseRedirectURL + "&prefill_Station=" + selectedStation
+        "QC1": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC2": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC4": baseRedirectURL + "&prefill_Station=" + selectedStation,
     };
 
     if (redirectionURLs[selectedStation]) {
