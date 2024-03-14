@@ -16,6 +16,6 @@ document.getElementById("goButton").addEventListener("click", function () {
     if (redirectionURLs[selectedStation]) {
         window.location.href = redirectionURLs[selectedStation];
     } else {
-        alert("Wybierz obie wartości aby kontynuować");
+        alert("Wybierz obie opcje aby kontynuować");
     }
 });
